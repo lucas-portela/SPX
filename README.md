@@ -36,6 +36,6 @@ This is a simple piece of code that adds size (width and height) and positioning
     * W = window width
 
 # Now you can enjoy the power of expressivity making your life easier through the help of SPX :)
-## Don't forget to share this good news with the world!
+Don't forget to share this good news with the world!
 
 
