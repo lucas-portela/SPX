@@ -7,11 +7,11 @@ This is a simple piece of code that adds size (width and height) and positioning
 <a class="anotherElement" style="position:fixed;top:100px;left:300px;width:20px;height:20px;background-color:red;">
 <!-- the DIV below will be two times bigger than div#someElement and will be placed below a.anotherElement !-->
 <div
-     data-spx-height="h(div#someElement)*2"
-     data-spx-width="w(div#someElement)*2"
-     data-spx-top="b(a.someElement)"
-     data-spx-left="l(a.someElement)"
-     style="position:fixed;background-color:green;">
+       data-spx-height="h(div#someElement)*2"
+       data-spx-width="w(div#someElement)*2"
+       data-spx-top="b(a.anotherElement)"
+       data-spx-left="l(a.anotherElement)"
+       style="position:fixed;background-color:green;">
 </div>
 ```
 ### What can I explain about it all?
