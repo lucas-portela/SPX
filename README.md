@@ -15,7 +15,7 @@ This is a simple piece of code that adds size (width and height) and positioning
 </div>
 ```
 ### What can I explain about it all?
-1. You can get any property of some element by writing the first letter of the property name in lower case followed by any CSS selector in brackets
+1. You can get any property of some element by writing the first letter of the property name in lower case followed by any CSS selector in parentheses
 2. The properties you can get are only those six:
     * h = element's height
     * w = element's width
