@@ -31,7 +31,7 @@ This is a simple piece of code that adds size (width and height) and positioning
     * data-spx-bottom = element's calculated bottom
     * data-spx-right = element's calculated right
 4. You can write any expression with any number of math operators, numbers and element properties
-5. There are as well two other constants you can use in your math expressions:
+5. There are as well two constants you can use in your math expressions:
     * H = window height
     * W = window width
 
