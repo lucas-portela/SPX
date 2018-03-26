@@ -32,8 +32,8 @@ This is a simple piece of code that adds size (width and height) and positioning
 ..* data-spx-right = element's calculated right
 4. You can write any expression with any amount of math operators, constants and element's properties
 5. There are aswell to other constants you can use in your math expressions: 
-⋅⋅* H = window height
-⋅⋅* W = window width
+  * H = window height
+  * W = window width
 
 # Now you can enjoy the power of expressivity making your life easier through the help of SPX :)
 ## Don't forget to share this good news with the world!
