@@ -1,5 +1,5 @@
 # SPX
-This is a simple piece of code that adds size (width and height) and positioning (top, left, bottom, right) math expressions to HTML. With SPX you can get some element's properties to calculate and apply a position or size to another element. To put SPX to work, simple include jQuery in your HTML and then include SPX script.
+This is a simple piece of code that adds size (width and height) and positioning (top, left, bottom, right) math expressions to HTML. With SPX you can get some element's properties to calculate and apply a position or size to another element. To get SPX working, simple include jQuery in your HTML and then include SPX script.
 
 ## Sintax
 ```html
