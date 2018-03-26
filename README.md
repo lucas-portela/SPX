@@ -1,7 +1,7 @@
 # SPX
 This is a simple piece of code that adds size (width and height) and positioning (top, left, bottom, right) math expressions to HTML. With SPX you can get some element's properties to calculate and apply a position or size to another element. To put SPX to work, simple include jQuery in your html and then include SPX script.
 
-##Sintax
+## Sintax
 ```html
 <div id="someElement" style="width:100px;height:100px;background-color:blue;">
 <a class="anotherElement" style="position:fixed;top:100px;left:300px;width:20px;height:20px;background-color:red;">
@@ -14,7 +14,7 @@ This is a simple piece of code that adds size (width and height) and positioning
      style="position:fixed;background-color:green;">
 </div>
 ```
-###What can I explain about it all?
+### What can I explain about it all?
 1. You can get any property of some element by writing the first letter of the property name in lower case followed by any CSS selector in brakets
 2. The properties you can get are only those six:
 ..* h = element's height
@@ -35,7 +35,7 @@ This is a simple piece of code that adds size (width and height) and positioning
 ..* H = window height
 ..* W = window width
 
-#Now you can enjoy the happiness of the power of expressivity making your life easier through the help of SPX :)
-##Don't forget to share this good news with the world!
+# Now you can enjoy the happiness of the power of expressivity making your life easier through the help of SPX :)
+## Don't forget to share this good news with the world!
 
 
