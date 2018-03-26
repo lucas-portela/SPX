@@ -21,15 +21,15 @@ This is a simple piece of code that adds size (width and height) and positioning
     * w = element's width
     * t = element's offset top
     * l = element's offset left
-    * b = element's calculated bottom
-    * b = element's calculated right
+    * b = element's calculated bottom (offset_top + height) 
+    * b = element's calculated right (offset_left + width)
 3. The properties you can set are only those six:
-    * data-spx-height = element's height
-    * data-spx-width = element's width
-    * data-spx-top = element's offset top
-    * data-spx-left = element's offset left
-    * data-spx-bottom = element's calculated bottom
-    * data-spx-right = element's calculated right
+    * data-spx-height = set element's height
+    * data-spx-width = set element's width
+    * data-spx-top = set element's css top
+    * data-spx-left = set element's css left
+    * data-spx-bottom = set element's css bottom
+    * data-spx-right = set element's css right
 4. You can write any expression with any number of math operators, numbers and element properties
 5. There are as well two constants you can use in your math expressions:
     * H = window height
