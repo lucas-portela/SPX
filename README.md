@@ -26,7 +26,7 @@ This is a simple piece of code that adds size (width and height) and positioning
 3. The properties you can set are only those six:
     * data-spx-height = element's height
     * data-spx-width = element's width
-    * data-spx-top= element's offset top
+    * data-spx-top = element's offset top
     * data-spx-left = element's offset left
     * data-spx-bottom = element's calculated bottom
     * data-spx-right = element's calculated right
