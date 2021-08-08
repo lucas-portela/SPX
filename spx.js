@@ -5,17 +5,16 @@
 */
 $(()=>{
     $(window).resize(()=>{
-        $(
-            '*[data-spx-top],*[data-spx-left],'+
-            '*[data-spx-bottom],*[data-spx-right],'+
-            '*[data-spx-height],*[data-spx-width]'
-        ).each(function(){
-            ['top','left','bottom','right','height','width'].forEach(cssattr=>{
-                var exp=this.dataset[
-                    'spx'+
-                    cssattr.charAt(0).toUpperCase()+
-                    cssattr.substr(1)
-                ];
+        let sides = ['left','bottom','right','height','width'];
+        let dimensions = ['height', 'width'];
+        let allowedAttrs = sides
+            .concat(dimensions)
+            .concat(sides.map(x=>'margin-'+x))
+            .concat(sides.map(x=>'padding-'+x))
+            .concat(['margin','padding']);
+        $(allowedAttrs.map(x=>`*[data-spx-${x}]`).each(function(){
+            allowedAttrs.forEach(attr=>{
+                var exp=this.attr('spx-'+attr);
                 if(!exp)return;
                 var anchors=exp.match(/([tlbrhw]\([^\)]+\))/g);
                 if(anchors)anchors.forEach(anchor=>{
@@ -37,7 +36,7 @@ $(()=>{
                 var W=$(window).height();
                 exp=exp.replace(/H/g,H);
                 exp=exp.replace(/W/g,W);
-                $(this).css(cssattr,parseInt(eval(exp))+"px");
+                $(this).css(attr, parseInt(eval(exp))+"px");
             });
         })
     }).trigger('resize');
